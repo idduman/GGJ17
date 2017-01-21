@@ -55,7 +55,7 @@ public class ElectricWire : MonoBehaviour
                 {
                     t = Mathf.Lerp(0, frequency * SegmentCount * Mathf.PI, (float)i / SampleRate);
                     points[i] = Vector3.Lerp(startPos, endPos, (float)i / (SampleRate - 1));
-                    points[i].y += (magnitude + pingpong) * (1 + Mathf.Sin(t + phaseShift)) + Random.Range(-0.1f, 0.1f); //POINT SET
+                    points[i].y += (magnitude + pingpong) * (1 + Mathf.Sin(t + phaseShift)) + Random.Range(-0.01f, 0.01f); //POINT SET
                 }
                 break;
             case Shape.Square:
@@ -67,10 +67,10 @@ public class ElectricWire : MonoBehaviour
                     x = (((t + phaseShift) / Mathf.PI) % 2);
                     if (x > 1)
                     {
-                        points[i].y += (magnitude + pingpong) * 2 + Random.Range(-0.1f, 0.1f); //POINT SET
+                        points[i].y += (magnitude + pingpong) * 2 + Random.Range(-0.01f, 0.01f); //POINT SET
                     }
                     else
-                        points[i].y += Random.Range(-0.1f, 0.1f); // POINT SET
+                        points[i].y += Random.Range(-0.01f, 0.01f); // POINT SET
                 }
                 break;
             case Shape.Triangle:
@@ -82,11 +82,11 @@ public class ElectricWire : MonoBehaviour
                     x = (((t + phaseShift) / Mathf.PI) % 2);
                     if (x < 1)
                     {
-                        points[i].y += (magnitude + pingpong) * 2 * x + Random.Range(-0.1f, 0.1f); //POINT SET
+                        points[i].y += (magnitude + pingpong) * 2 * x + Random.Range(-0.01f, 0.01f); //POINT SET
                     }
                     else
                     {
-                        points[i].y += (magnitude + pingpong) * 2 * (2 - x) + Random.Range(-0.1f, 0.1f); //POINT SET
+                        points[i].y += (magnitude + pingpong) * 2 * (2 - x) + Random.Range(-0.01f, 0.01f); //POINT SET
                     }
                 }
                 break;
@@ -198,11 +198,11 @@ public class ElectricWire : MonoBehaviour
 
         magnitude = Mathf.Clamp(magnitude, 0, magnitude_max);
 
-        if (magnitude > 0.98 * magnitude_max)
+        if (magnitude > 0.99 * magnitude_max)
         {
             pass = true;
-            pingpong += 0.1f;
-            pingpong = Mathf.PingPong(5 * Time.time, 0.3f);
+            pingpong += 0.01f;
+            pingpong = Mathf.PingPong(5 * Time.time, 0.03f);
         }
         else
         {

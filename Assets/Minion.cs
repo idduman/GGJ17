@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Minion : MonoBehaviour
 {
-    public Transform Checkpoint_Left, Checkpoint_Right;
+    public Transform Checkpoint_Left, Checkpoint_Right, Anten_Left, Anten_Right;
     public ElectricWire wire;
     [HideInInspector]
     public Shape waveform;
@@ -34,7 +34,7 @@ public class Minion : MonoBehaviour
             active = false;
             HitGate();
         }
-        else if(transform.position.z <= (Checkpoint_Left.position.z - 2))
+        else if(transform.position.z <= (Checkpoint_Left.position.z - 1))
             Destroy(this.gameObject);
 
         if (Input.GetKeyDown("1"))
@@ -48,8 +48,14 @@ public class Minion : MonoBehaviour
     void HitGate()
     {
         if (wire.pass && waveform == wire.waveform && phase == wire.phase && frequency == wire.frequency)
+        {
+            Debug.Log("Pass");
             wire.score += 1;
+        }
         else
+        {
+            Debug.Log("SHOCK!");
             Destroy(this.gameObject);
+        }
     }
 }
