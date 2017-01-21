@@ -29,7 +29,7 @@ public class ElectricWire : MonoBehaviour
     {
         score = 0;
         phase = 0;
-        frequency = 2;
+        frequency = 1;
         pingpong = 0;
         pass = false;
         magnitude_max = (StartPoint.lossyScale.y / 2) - 0.15f;
@@ -53,7 +53,7 @@ public class ElectricWire : MonoBehaviour
                 phaseShift = (phase - 0.5f) * Mathf.PI;
                 for (int i = 0; i < SampleRate; i++)
                 {
-                    t = Mathf.Lerp(0, frequency * SegmentCount * Mathf.PI, (float)i / SampleRate);
+                    t = Mathf.Lerp(0, frequency * 2 * SegmentCount * Mathf.PI, (float)i / SampleRate);
                     points[i] = Vector3.Lerp(startPos, endPos, (float)i / (SampleRate - 1));
                     points[i].y += (magnitude + pingpong) * (1 + Mathf.Sin(t + phaseShift)) + Random.Range(-0.01f, 0.01f); //POINT SET
                 }
@@ -62,7 +62,7 @@ public class ElectricWire : MonoBehaviour
                 phaseShift = phase * Mathf.PI;
                 for (int i = 0; i < SampleRate; i++)
                 {
-                    t = Mathf.Lerp(0, frequency * SegmentCount * Mathf.PI, (float)i / SampleRate);
+                    t = Mathf.Lerp(0, frequency * 2 * SegmentCount * Mathf.PI, (float)i / SampleRate);
                     points[i] = Vector3.Lerp(startPos, endPos, (float)i / (SampleRate - 1));
                     x = (((t + phaseShift) / Mathf.PI) % 2);
                     if (x > 1)
@@ -77,16 +77,16 @@ public class ElectricWire : MonoBehaviour
                 phaseShift = phase * Mathf.PI;
                 for (int i = 0; i < SampleRate; i++)
                 {
-                    t = Mathf.Lerp(0, frequency * SegmentCount * Mathf.PI, (float)i / SampleRate);
+                    t = Mathf.Lerp(0, frequency * 2 * SegmentCount * Mathf.PI, (float)i / SampleRate);
                     points[i] = Vector3.Lerp(startPos, endPos, (float)i / (SampleRate - 1));
                     x = (((t + phaseShift) / Mathf.PI) % 2);
                     if (x < 1)
                     {
-                        points[i].y += (magnitude + pingpong) * 2 * x + Random.Range(-0.01f, 0.01f); //POINT SET
+                        points[i].y += (magnitude + pingpong) * 2.4f * x + Random.Range(-0.01f, 0.01f); //POINT SET
                     }
                     else
                     {
-                        points[i].y += (magnitude + pingpong) * 2 * (2 - x) + Random.Range(-0.01f, 0.01f); //POINT SET
+                        points[i].y += (magnitude + pingpong) * 2.4f * (2 - x) + Random.Range(-0.01f, 0.01f); //POINT SET
                     }
                 }
                 break;
