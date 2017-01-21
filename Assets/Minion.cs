@@ -39,6 +39,23 @@ public class Minion : MonoBehaviour
         SampleRate = 100;
         minionY = 0.05f;
         diff = Checkpoint_Right.position.x - Checkpoint_Left.position.x;
+        lane = Random.Range(0, 3);
+        phase = Random.Range(0, 2);
+        frequency = Random.Range(1, 3);
+        Cable = GetComponentInChildren<LineRenderer>();
+        int w = Random.Range(0, 3);
+        switch(w)
+        {
+            case 0:
+                waveform = Shape.Sine;
+                break;
+            case 1:
+                waveform = Shape.Square;
+                break;
+            case 2:
+                waveform = Shape.Triangle;
+                break;
+        }
         active = true;
         points = new Vector3[SampleRate+2];
         laneX = Checkpoint_Left.position.x + diff * (lane + 0.5f) / 3;
@@ -88,17 +105,21 @@ public class Minion : MonoBehaviour
         var targetX = LaneX;
         Vector3 p = transform.position;
         var originalY = p.y;
-        while(Mathf.Abs(transform.position.x - targetX) > 0.001f)
+        float diff = Mathf.Abs(transform.position.x - targetX);
+        float originalDiff = diff;
+        while (diff > 0.001f)
         {
             var percx = currentHorLerpTime / horLerpTime;
             p = transform.position;
             newX = Mathf.Lerp(p.x, targetX, percx);
-            jumpdist = Mathf.Sin(percx * 2 * Mathf.PI);
+            jumpdist = Mathf.Sin((originalDiff-diff) * Mathf.PI) * 0.5f;
             transform.position = new Vector3(newX, originalY + jumpdist, p.z);
             currentHorLerpTime += Time.deltaTime;
             currentVerLerpTime += Time.deltaTime;
+            diff = Mathf.Abs(transform.position.x - targetX);
             yield return null;
         }
+        transform.position = new Vector3(p.x, originalY, p.z);
         CoroutineDone = true;
     }
 
