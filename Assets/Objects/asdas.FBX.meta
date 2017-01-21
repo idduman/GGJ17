@@ -1,0 +1,248 @@
+fileFormatVersion: 2
+guid: 12314989e32cfed40a9c1c9a228a1523
+timeCreated: 1485008857
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Anten_L_01BBB
+    100002: Anten_L_02BBB
+    100004: Anten_L_TopBBB
+    100006: Anten_R_01BBB
+    100008: Anten_R_02BBB
+    100010: Anten_R_TopBBB
+    100012: //RootNode
+    100014: Ayak_L002BBB
+    100016: Ayak_RBBB
+    100018: CATRigHub001
+    100020: CATRigHub001Bone001
+    100022: CATRigLArm1
+    100024: CATRigLArm2
+    100026: CATRigLArmCollarbone
+    100028: CATRigLArmPalm
+    100030: CATRigLLeg1
+    100032: CATRigLLeg2
+    100034: CATRigLLegAnkle
+    100036: CATRigLLegPlatform
+    100038: CATRigRArm1
+    100040: CATRigRArm2
+    100042: CATRigRArmCollarbone
+    100044: CATRigRArmPalm
+    100046: CATRigRLeg1
+    100048: CATRigRLeg2
+    100050: CATRigRLegAnkle
+    100052: CATRigRLegPlatform
+    100054: Character001
+    100056: govdeBBB
+    400000: Anten_L_01BBB
+    400002: Anten_L_02BBB
+    400004: Anten_L_TopBBB
+    400006: Anten_R_01BBB
+    400008: Anten_R_02BBB
+    400010: Anten_R_TopBBB
+    400012: //RootNode
+    400014: Ayak_L002BBB
+    400016: Ayak_RBBB
+    400018: CATRigHub001
+    400020: CATRigHub001Bone001
+    400022: CATRigLArm1
+    400024: CATRigLArm2
+    400026: CATRigLArmCollarbone
+    400028: CATRigLArmPalm
+    400030: CATRigLLeg1
+    400032: CATRigLLeg2
+    400034: CATRigLLegAnkle
+    400036: CATRigLLegPlatform
+    400038: CATRigRArm1
+    400040: CATRigRArm2
+    400042: CATRigRArmCollarbone
+    400044: CATRigRArmPalm
+    400046: CATRigRLeg1
+    400048: CATRigRLeg2
+    400050: CATRigRLegAnkle
+    400052: CATRigRLegPlatform
+    400054: Character001
+    400056: govdeBBB
+    2300000: Anten_L_01BBB
+    2300002: Anten_L_02BBB
+    2300004: Anten_L_TopBBB
+    2300006: Anten_R_01BBB
+    2300008: Anten_R_02BBB
+    2300010: Anten_R_TopBBB
+    2300012: Ayak_L002BBB
+    2300014: Ayak_RBBB
+    2300016: govdeBBB
+    3300000: Anten_L_01BBB
+    3300002: Anten_L_02BBB
+    3300004: Anten_L_TopBBB
+    3300006: Anten_R_01BBB
+    3300008: Anten_R_02BBB
+    3300010: Anten_R_TopBBB
+    3300012: Ayak_L002BBB
+    3300014: Ayak_RBBB
+    3300016: govdeBBB
+    4300000: Anten_R_TopBBB
+    4300002: Anten_L_TopBBB
+    4300004: Anten_L_02BBB
+    4300006: Anten_R_02BBB
+    4300008: Anten_L_01BBB
+    4300010: Anten_R_01BBB
+    4300012: govdeBBB
+    4300014: Ayak_RBBB
+    4300016: Ayak_L002BBB
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 60
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Anten_L_01BBB
+        weight: 1
+      - path: Anten_L_02BBB
+        weight: 1
+      - path: Anten_L_TopBBB
+        weight: 1
+      - path: Anten_R_01BBB
+        weight: 1
+      - path: Anten_R_02BBB
+        weight: 1
+      - path: Anten_R_TopBBB
+        weight: 1
+      - path: Ayak_L002BBB
+        weight: 1
+      - path: Ayak_RBBB
+        weight: 1
+      - path: CATRigHub001
+        weight: 1
+      - path: CATRigHub001/CATRigHub001Bone001
+        weight: 1
+      - path: CATRigHub001/CATRigLArmCollarbone
+        weight: 1
+      - path: CATRigHub001/CATRigLArmCollarbone/CATRigLArm1
+        weight: 1
+      - path: CATRigHub001/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2
+        weight: 1
+      - path: CATRigHub001/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm
+        weight: 1
+      - path: CATRigHub001/CATRigLLeg1
+        weight: 1
+      - path: CATRigHub001/CATRigLLeg1/CATRigLLeg2
+        weight: 1
+      - path: CATRigHub001/CATRigLLeg1/CATRigLLeg2/CATRigLLegAnkle
+        weight: 1
+      - path: CATRigHub001/CATRigRArmCollarbone
+        weight: 1
+      - path: CATRigHub001/CATRigRArmCollarbone/CATRigRArm1
+        weight: 1
+      - path: CATRigHub001/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2
+        weight: 1
+      - path: CATRigHub001/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm
+        weight: 1
+      - path: CATRigHub001/CATRigRLeg1
+        weight: 1
+      - path: CATRigHub001/CATRigRLeg1/CATRigRLeg2
+        weight: 1
+      - path: CATRigHub001/CATRigRLeg1/CATRigRLeg2/CATRigRLegAnkle
+        weight: 1
+      - path: CATRigLLegPlatform
+        weight: 1
+      - path: CATRigRLegPlatform
+        weight: 1
+      - path: Character001
+        weight: 1
+      - path: govdeBBB
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
