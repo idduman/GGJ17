@@ -23,6 +23,7 @@ public class Minion : MonoBehaviour
     private float verLerpTime = 0.5f;
     private float currentVerLerpTime;
     private float minionY;
+    private Animator anim;
 
     public float LaneX
     {
@@ -43,6 +44,8 @@ public class Minion : MonoBehaviour
         phase = Random.Range(0, 2);
         frequency = Random.Range(1, 3);
         Cable = GetComponentInChildren<LineRenderer>();
+        anim = GetComponent<Animator>();
+
         int w = Random.Range(0, 3);
         switch(w)
         {
@@ -99,6 +102,7 @@ public class Minion : MonoBehaviour
     IEnumerator SwapLane(int destination)
     {
         CoroutineDone = false;
+        anim.SetBool("LJump", true);
         currentHorLerpTime = 0;
         lane = destination;
         float newX,jumpdist = 0;
@@ -120,6 +124,7 @@ public class Minion : MonoBehaviour
             yield return null;
         }
         transform.position = new Vector3(p.x, originalY, p.z);
+        anim.SetBool("LJump", false);
         CoroutineDone = true;
     }
 
