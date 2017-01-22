@@ -1,0 +1,349 @@
+fileFormatVersion: 2
+guid: ad8b7bb6b197dfc429d26561d9a498b3
+timeCreated: 1485066809
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Anten_L_01BBB
+    100002: Anten_L_02BBB
+    100004: Anten_L_TopBBB
+    100006: Anten_R_01BBB
+    100008: Anten_R_02BBB
+    100010: Anten_R_TopBBB
+    100012: Ayak_L002BBB
+    100014: Ayak_RBBB
+    100016: CATRigHub001
+    100018: CATRigHub001Bone001
+    100020: CATRigLArm1
+    100022: CATRigLArm2
+    100024: CATRigLArmCollarbone
+    100026: CATRigLArmPalm
+    100028: CATRigLLeg1
+    100030: CATRigLLeg2
+    100032: CATRigLLegAnkle
+    100034: CATRigLLegPlatform
+    100036: CATRigRArm1
+    100038: CATRigRArm2
+    100040: CATRigRArmCollarbone
+    100042: CATRigRArmPalm
+    100044: CATRigRLeg1
+    100046: CATRigRLeg2
+    100048: CATRigRLegAnkle
+    100050: CATRigRLegPlatform
+    100052: //RootNode
+    100054: Character001
+    100056: govdeBBB
+    100058: surat
+    100060: surat2
+    400000: Anten_L_01BBB
+    400002: Anten_L_02BBB
+    400004: Anten_L_TopBBB
+    400006: Anten_R_01BBB
+    400008: Anten_R_02BBB
+    400010: Anten_R_TopBBB
+    400012: Ayak_L002BBB
+    400014: Ayak_RBBB
+    400016: CATRigHub001
+    400018: CATRigHub001Bone001
+    400020: CATRigLArm1
+    400022: CATRigLArm2
+    400024: CATRigLArmCollarbone
+    400026: CATRigLArmPalm
+    400028: CATRigLLeg1
+    400030: CATRigLLeg2
+    400032: CATRigLLegAnkle
+    400034: CATRigLLegPlatform
+    400036: CATRigRArm1
+    400038: CATRigRArm2
+    400040: CATRigRArmCollarbone
+    400042: CATRigRArmPalm
+    400044: CATRigRLeg1
+    400046: CATRigRLeg2
+    400048: CATRigRLegAnkle
+    400050: CATRigRLegPlatform
+    400052: //RootNode
+    400054: Character001
+    400056: govdeBBB
+    400058: surat
+    400060: surat2
+    2300000: Anten_L_01BBB
+    2300002: Anten_L_02BBB
+    2300004: Anten_L_TopBBB
+    2300006: Anten_R_01BBB
+    2300008: Anten_R_02BBB
+    2300010: Anten_R_TopBBB
+    2300012: Ayak_L002BBB
+    2300014: Ayak_RBBB
+    2300016: govdeBBB
+    2300018: surat
+    2300020: surat2
+    3300000: Anten_L_01BBB
+    3300002: Anten_L_02BBB
+    3300004: Anten_L_TopBBB
+    3300006: Anten_R_01BBB
+    3300008: Anten_R_02BBB
+    3300010: Anten_R_TopBBB
+    3300012: Ayak_L002BBB
+    3300014: Ayak_RBBB
+    3300016: govdeBBB
+    3300018: surat
+    3300020: surat2
+    4300000: surat2
+    4300002: Anten_R_TopBBB
+    4300004: Anten_L_TopBBB
+    4300006: Anten_L_02BBB
+    4300008: Anten_R_02BBB
+    4300010: Anten_L_01BBB
+    4300012: Anten_R_01BBB
+    4300014: govdeBBB
+    4300016: Ayak_RBBB
+    4300018: Ayak_L002BBB
+    4300020: surat
+    7400000: Running
+    7400002: Death
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Running
+      takeName: Take 001
+      firstFrame: 60
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Anten_L_01BBB
+        weight: 1
+      - path: Anten_L_02BBB
+        weight: 1
+      - path: Anten_L_TopBBB
+        weight: 1
+      - path: Anten_R_01BBB
+        weight: 1
+      - path: Anten_R_02BBB
+        weight: 1
+      - path: Anten_R_TopBBB
+        weight: 1
+      - path: Ayak_L002BBB
+        weight: 1
+      - path: Ayak_RBBB
+        weight: 1
+      - path: CATRigHub001
+        weight: 1
+      - path: CATRigHub001/CATRigHub001Bone001
+        weight: 1
+      - path: CATRigHub001/CATRigLArmCollarbone
+        weight: 1
+      - path: CATRigHub001/CATRigLArmCollarbone/CATRigLArm1
+        weight: 1
+      - path: CATRigHub001/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2
+        weight: 1
+      - path: CATRigHub001/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm
+        weight: 1
+      - path: CATRigHub001/CATRigLLeg1
+        weight: 1
+      - path: CATRigHub001/CATRigLLeg1/CATRigLLeg2
+        weight: 1
+      - path: CATRigHub001/CATRigLLeg1/CATRigLLeg2/CATRigLLegAnkle
+        weight: 1
+      - path: CATRigHub001/CATRigRArmCollarbone
+        weight: 1
+      - path: CATRigHub001/CATRigRArmCollarbone/CATRigRArm1
+        weight: 1
+      - path: CATRigHub001/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2
+        weight: 1
+      - path: CATRigHub001/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm
+        weight: 1
+      - path: CATRigHub001/CATRigRLeg1
+        weight: 1
+      - path: CATRigHub001/CATRigRLeg1/CATRigRLeg2
+        weight: 1
+      - path: CATRigHub001/CATRigRLeg1/CATRigRLeg2/CATRigRLegAnkle
+        weight: 1
+      - path: CATRigHub001/surat2
+        weight: 1
+      - path: CATRigLLegPlatform
+        weight: 1
+      - path: CATRigRLegPlatform
+        weight: 1
+      - path: Character001
+        weight: 1
+      - path: govdeBBB
+        weight: 1
+      - path: surat
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 60
+    - serializedVersion: 16
+      name: Death
+      takeName: Take 001
+      firstFrame: 140
+      lastFrame: 160
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Anten_L_01BBB
+        weight: 1
+      - path: Anten_L_02BBB
+        weight: 1
+      - path: Anten_L_TopBBB
+        weight: 1
+      - path: Anten_R_01BBB
+        weight: 1
+      - path: Anten_R_02BBB
+        weight: 1
+      - path: Anten_R_TopBBB
+        weight: 1
+      - path: Ayak_L002BBB
+        weight: 1
+      - path: Ayak_RBBB
+        weight: 1
+      - path: CATRigHub001
+        weight: 1
+      - path: CATRigHub001/CATRigHub001Bone001
+        weight: 1
+      - path: CATRigHub001/CATRigLArmCollarbone
+        weight: 1
+      - path: CATRigHub001/CATRigLArmCollarbone/CATRigLArm1
+        weight: 1
+      - path: CATRigHub001/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2
+        weight: 1
+      - path: CATRigHub001/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm
+        weight: 1
+      - path: CATRigHub001/CATRigLLeg1
+        weight: 1
+      - path: CATRigHub001/CATRigLLeg1/CATRigLLeg2
+        weight: 1
+      - path: CATRigHub001/CATRigLLeg1/CATRigLLeg2/CATRigLLegAnkle
+        weight: 1
+      - path: CATRigHub001/CATRigRArmCollarbone
+        weight: 1
+      - path: CATRigHub001/CATRigRArmCollarbone/CATRigRArm1
+        weight: 1
+      - path: CATRigHub001/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2
+        weight: 1
+      - path: CATRigHub001/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm
+        weight: 1
+      - path: CATRigHub001/CATRigRLeg1
+        weight: 1
+      - path: CATRigHub001/CATRigRLeg1/CATRigRLeg2
+        weight: 1
+      - path: CATRigHub001/CATRigRLeg1/CATRigRLeg2/CATRigRLegAnkle
+        weight: 1
+      - path: CATRigHub001/surat2
+        weight: 1
+      - path: CATRigLLegPlatform
+        weight: 1
+      - path: CATRigRLegPlatform
+        weight: 1
+      - path: Character001
+        weight: 1
+      - path: govdeBBB
+        weight: 1
+      - path: surat
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 60
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
