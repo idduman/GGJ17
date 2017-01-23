@@ -209,7 +209,6 @@
     <None Include="Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
     <None Include="Assets\Fantasy Skybox FREE\Fog and Ambient reference.txt" />
     <None Include="Assets\Fantasy Skybox FREE\Readme.txt" />
-    <None Include="Assets\GE Common Assets\Readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
