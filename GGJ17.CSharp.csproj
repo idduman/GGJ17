@@ -121,6 +121,7 @@
     <Compile Include="Assets\GE Common Assets\GE Touch Joystick\Utility\CurveControlledBob.cs" />
     <Compile Include="Assets\GE Common Assets\GE Touch Joystick\Utility\FOVKick.cs" />
     <Compile Include="Assets\GE Common Assets\GE Touch Joystick\Utility\LerpControlledBob.cs" />
+    <Compile Include="Assets\MainMenuStarter.cs" />
     <Compile Include="Assets\Minion.cs" />
   </ItemGroup>
   <ItemGroup>
